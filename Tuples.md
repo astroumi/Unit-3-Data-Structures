@@ -25,17 +25,6 @@ even_tup = tuple(i for i in range(1,101) if i % 2 == 0)
 
 ### Tuple & Python: Packing and Unpacking
 # Examine the following code
-
-# Packing
-var_1 = 2
-var_2 = 3
-var_3 = 5
-
-prime = var_1, var_2, var_3
-
-print('Packed prime values:', prime)
-
-# Unpacking and Repacking
 ```python
 # Packing
 var_1 = 2
@@ -47,6 +36,7 @@ prime = var_1, var_2, var_3
 print('Packed prime values:', prime)
 #Packed prime values: (2, 3, 5)
 
+# Unpacking and Repacking
 fib = (0, 1, 1, 2, 3, 5, 8)
 
 fib_0, fib_1, fib_n = fib[0], fib[1], fib[2:]
